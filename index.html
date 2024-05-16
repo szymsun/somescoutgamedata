@@ -1,7 +1,8 @@
 <html>
-    <head><script>
+    <head>
+        <script>
         
-        var pass = "1234";
+        var pass = "proba ognia";
         
         function login(){
             if(document.getElementById("xd").value == pass)
@@ -21,12 +22,24 @@
             margin-left: auto;
             margin-right: auto;
         }
+        .spoiler{
+          background-color: darkgray;
+          color: transparent;
+            user-select: none;
+        }
+
+        .spoiler:hover{
+             background-color: inherit;
+            color: inherit;
+        }
     </style>
 
     </head>
     
     <body><div class="centerxd">
-        <input type="password" id="xd" class="centerxd"><p>type the code</p>
+        <p><span class="spoiler"> znajdzcie kody na stronie artykulu. szukajcie wszedzie</span></p>
+        <p><input type="password" id="xd" class="centerxd"></p>
+        <p>type the code</p>
         <p><button onclick="login()" class="centerxd">login</button></p>
         </div>
 
