@@ -1,4 +1,4 @@
-.h1{
+.h11{
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -9,6 +9,19 @@
 }
 .contentx{
     max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+
+}
+.smolimg{
+    width: 400px;
+    height: 400px;
+    max-width: fit-content;
+    align-self: center;
     margin-left: auto;
     margin-right: auto;
 }
